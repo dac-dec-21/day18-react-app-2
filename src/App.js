@@ -3,11 +3,21 @@ export default function App() {
     <div className="container-fluid">
       <Header />
 
-      <div className="row">
-        <div className="col">
+      <div className="row mt-1">
+        <div className="col-sm-12 col-md-4 mb-1">
           <MyCard />
         </div>
-        <div className="col">
+        <div className="col-sm-12 col-md-4 mb-1">
+          <MyCard />
+        </div>
+        <div className="col-sm-12 col-md-4 mb-1">
+          <MyCard />
+        </div>
+        <div className="col-sm-12 col-md-4 mb-1">
+          <MyCard />
+        </div>
+
+        <div className="col-sm-12 col-md-4 mb-1">
           <MyCard />
         </div>
       </div>
@@ -30,6 +40,8 @@ function MyCard() {
       <div className="card-body">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nulla
         earum, iure magnam at assumenda qui et itaque, modi totam mollitia
+        officia necessitatibus tenetur architecto. itaque, modi totam mollitia
+        officia necessitatibus tenetur architecto. itaque, modi totam mollitia
         officia necessitatibus tenetur architecto.
         <input
           className="btn btn-sm btn-outline-secondary w-100 mt-2"
