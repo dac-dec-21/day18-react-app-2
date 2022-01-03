@@ -1,5 +1,5 @@
-import HelloWorld from "./HelloWorld";
-import HelloUniverse from "./HelloUniverse";
+import HelloWorld from "./components/HelloWorld";
+import HelloUniverse from "./components/HelloUniverse";
 
 export default function App() {
   return (
