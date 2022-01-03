@@ -1,7 +1,7 @@
 export default function HelloWorld() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1>Hello World </h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
         praesentium ea illum illo veniam optio voluptatum laborum, distinctio
