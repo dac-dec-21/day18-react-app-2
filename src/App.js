@@ -6,7 +6,7 @@
 export default function App() {
   return (
     <div>
-      <HelloWorld />
+      <HelloWorld></HelloWorld>
       <HelloWorld />
     </div>
   );
