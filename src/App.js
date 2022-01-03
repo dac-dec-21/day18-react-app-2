@@ -2,6 +2,9 @@
  * App => Captial
  * JSX => Javascript XML.
  * @returns JSX => XML
+ *
+ * <App></App>
+ * <App />
  */
 export default function App() {
   return (
@@ -13,17 +16,14 @@ export default function App() {
 }
 
 /**
- * HTML => PRE DEFINED TAG
- * REACT => USER DEFINED TAG => COMPONENT
- *
- * <div></div>
  * <HelloWorld></HelloWorld>
+ * <HelloWorld />
  * @returns
  */
 export function HelloWorld() {
   return (
     <div>
-      <h1>Hello Cdac</h1>
+      <h1>Hello World</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
         voluptates inventore est assumenda reiciendis repellendus facere
